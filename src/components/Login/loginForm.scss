@@ -1,0 +1,128 @@
+.eps-chc-logo-div{
+    position: absolute;
+    top:30vh;
+    width: 100%;
+    text-align: center;
+    img{
+        padding: 10px 15px;
+    };
+    img:nth-child(2){
+        padding-bottom: 18px;
+    };
+}
+.eps-chc-error-div{
+    position: absolute;
+    top:70vh;
+    width: 100%;
+    text-align: center;
+    color:red;
+}
+.errorContainer{
+    width: 30vw;
+    margin: auto;
+}
+.login-footer{
+    position: fixed;
+    bottom: 0px;
+    padding: 10px;
+    text-align: center;
+}
+#test-id-page{
+    background-image: url(../../assets/images/login-background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .eps-chc-logo-div{
+        top:30vh;     
+    }
+    }
+    /* Desktops and laptops ----------- */
+    @media only screen  and (min-width : 600px) {
+        .eps-chc-error-div {
+            top: 65vh;
+        }
+        .errorContainer {
+            width: 60vw;
+            margin: auto;
+        }
+    }
+    @media only screen  and (min-width : 768px) {
+        .eps-chc-logo-div{
+            top:33vh;     
+        }
+    }
+    @media only screen  and (min-width : 780px) {
+        .eps-chc-logo-div{
+            top:36vh;     
+        }
+        .eps-chc-error-div {
+            top: 60vh;     
+        }
+        .errorContainer {
+            width: 30vw;
+        }
+    }
+    @media only screen  and (min-width : 800px) {
+            .errorContainer {
+                width: 40vw;
+            }
+        }
+    @media only screen  and (min-width : 900px) and (max-height : 650px) {
+        .eps-chc-logo-div {
+            top: 20vh;
+        }
+        .eps-chc-error-div {
+            top: 72vh;     
+        }
+        .errorContainer {
+            width: 50vw;
+        }
+    }
+    @media only screen  and (min-width : 1224px) {
+        .eps-chc-logo-div{
+            top:26vh;   
+        }
+        .errorContainer {
+            width: 35vw;
+        }  
+    }
+    @media only screen  and (min-width : 1280px) {
+        .eps-chc-error-div{
+            top:68vh;
+        }
+    }
+    @media only screen  and (min-width : 1366px) {
+        .eps-chc-logo-div{
+            top:24vh;   
+        }
+        .eps-chc-error-div{
+            top:70vh;
+        }
+        .errorContainer {
+            width: 35vw;
+        }  
+    }
+    @media only screen  and (min-width : 1440px) {
+        .eps-chc-logo-div{
+            top:30vh;     
+        }
+        .eps-chc-error-div{
+            top:65vh;
+        }
+    }
+    /* Large screens ----------- */
+    @media only screen  and (min-width : 1824px) {
+        .eps-chc-logo-div{
+            top:33.5vh;     
+        }
+        .eps-chc-error-div{
+            top:63vh;
+            .errorContainer{
+                width: 22vw;
+                margin: auto;
+            }
+        }
+    }

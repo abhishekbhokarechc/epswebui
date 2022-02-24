@@ -1,0 +1,24 @@
+div Button.button-card{
+    border-radius: 0px !important;
+    width: 25vw;
+    height: 12vh !important;
+    margin: 25px 0;
+}
+
+div Button.button-card:hover{
+    border: 1px solid #4CC6FF;
+}
+
+div Button.button-card:active{
+    background-color:  #E5F8FF;
+}
+
+div CardHeader:first-child{
+    font-size: 24px;
+}
+
+@media only screen  and (max-width : 800px) {
+    div Button.button-card{
+        width: 40vw;
+    }
+}

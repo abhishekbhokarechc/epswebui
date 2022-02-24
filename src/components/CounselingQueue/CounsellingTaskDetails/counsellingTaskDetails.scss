@@ -1,0 +1,91 @@
+
+.justify-content-center button{
+    margin: 15px auto;
+}
+
+.divClose{
+    height: 80px;
+    transition: all 0.8s ease;
+    overflow: hidden;
+}
+.divOpen{
+    height: auto;
+    transition: all 0.8s ease;
+}
+ol{
+    padding-left: 18px;
+}
+ol li{
+    white-space: break-spaces;
+}
+.durTransactionGridContainer{
+    max-height: 200px;
+    overflow: auto;
+    div{
+        overflow: initial;    
+    }
+}
+.rxInfoContainer{
+    border:1px solid #DEE4EC;
+    border-radius: 12px;
+}
+.rxInfoHeader{
+    background: #0F0F59;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #0F0F59;
+    border-radius: 12px 12px 0px 0px;
+    margin-bottom: 15px;
+}
+.highlightedRow{
+    background: #EDF9FF;
+    padding: 15px;
+}
+.notificationsCount{
+    background: #fff;
+    border-radius: 50%;
+    color: #0F0F59;
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    text-align: center;
+    margin-left: 5px;
+}
+.overflowContainer{
+    position: relative;
+    padding-bottom: 10px;
+}
+.overflowContainer ol{
+    margin-top: 0px;
+}
+.overflowContentHidden{
+    max-height: 60px;
+    overflow: hidden;
+}
+.overflowContentShow{
+    height: auto;
+}
+.showMoreBtn{
+    position: absolute;
+    bottom: -5px;
+    left: 0px;
+    text-decoration: underline;
+}
+ul{
+    padding:0px;
+    margin:0px;
+    list-style: none;
+}
+//For odd row styling (14 feb 22)
+.panelRow{
+    margin-bottom: 0px !important;
+    padding: 5px 0px;
+}
+.panelRow:nth-child(even){
+    background-color: #f4f6f9;
+}
+.rxDetailsSection{
+    border-top:1px solid #DEE4EC;
+    border-bottom:1px solid #DEE4EC;
+    padding: 10px;
+}
